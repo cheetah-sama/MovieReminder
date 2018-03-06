@@ -1,5 +1,5 @@
-
 package moviereminder;
+import org.json.simple.*;
 
 /**
  *
@@ -10,7 +10,8 @@ public class MovieReminder {
     
     
     public static void main(String[] args) {
-        System.out.println("anything wow");
+       JSONObject json = new JSONObject();
+       
     }
     
 }
